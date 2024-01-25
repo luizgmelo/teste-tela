@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <title>Teste</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/components/fomulario.css">
+    <link rel="stylesheet" href="css/components/filtros.css">
+    <link rel="stylesheet" href="css/components/campos.css">
+    <link rel="stylesheet" href="css/components/tabela.css">
+  </head>
+  <body>
+    <fieldset class="formulario">
+      <div>
+        <input id="codigo" class="campoTexto codigo" type="text" placeholder="Codigo">
+        <input id="cidade" class="campoTexto cidade" type="text" placeholder="Nome da cidade">
+      </div>
+      <div class="filtros">
+        <div class="filtro-data">
+          <input id="ano" class="campoTexto ano" type="text" placeholder="Ano">
+          <input id="mes" class="campoTexto mes" type="text" placeholder="Mês">
+        </div>
+        <div class="filtros-texto">
+          <span class="ponto-azul"></span><p>Por subgrupo</p>
+          <span class="ponto-azul"></span><p>Por procedimento</p>
+        </div>
+      </div>
+      <div>
+        <input id="buscar" class="campoTexto campoBuscar icone-de-busca" type="search" placeholder="Buscar">
+      </div>
+    </fieldset>
+    
+
+    <div class="divPesquisar">
+      <input id="pesquisar" class="campoTexto campoPesquisar icone-de-busca" type="search" placeholder="Pesquisar">
+    </div>
+
+    <fieldset class="tabelaInfo">
+      <table class="tabela">
+        <tr>
+          <th>Municipio</th>
+          <th>Subgrupo/Procedimento</th>
+          <th>Qntd. teto</th>
+          <th>Qntd. teto usada</th>
+          <th>Tipo</th>
+        </tr>
+        <tr>
+          <td>Serra Talhada</td>
+          <td><span class="sublinhado">Diagnóstico por ultrassom</span></td>
+          <td>500</td>
+          <td>0</td>
+          <td><img src="search.svg" alt="pesquisar"></td>
+        </tr>
+      </table>
+    </fieldset>
+
+  </body>
+</html>

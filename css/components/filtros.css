@@ -1,0 +1,22 @@
+.filtros {
+  display: flex;
+  align-items: center;
+}
+
+.filtros p {
+  display: inline-block;
+}
+
+.filtros-texto {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+  margin-bottom: 15px;
+}
+
+.filtros-texto .ponto-azul {
+  width: 15px;
+  height: 15px;
+  background-color: #90AFC1;
+  border-radius: 50%;
+}
